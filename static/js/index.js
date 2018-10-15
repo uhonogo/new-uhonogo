@@ -29,6 +29,10 @@ $(document).ready(function() {
 		$( this ).find('.project-name').toggleClass('show');
 	});
 
+	$( '.button' ).hover(function() {
+		$( this ).toggleClass( 'shadow' );
+	});
+
 	$( '.site-team-block-grid' ).hover(function() {
 		// $( this ).find('.site-team-block-grid-description').toggleClass('shadow-bottom');
 		$( this ).toggleClass('animate-team-block');
